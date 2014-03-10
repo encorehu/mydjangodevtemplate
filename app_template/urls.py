@@ -2,7 +2,7 @@
 
 urlpatterns = patterns('',
     # Examples:
-    # url(r'^$', 'ddbug.views.home', name='home'),
+    # url(r'^$', '{{ app_name }}.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
 )
